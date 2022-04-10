@@ -1,0 +1,1 @@
+export const key = () => '2MXBR8RUQWTZ57VL';

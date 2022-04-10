@@ -1,0 +1,30 @@
+.portfolioTable {
+    border: 1px solid black;
+}
+.portfolioRow {
+    display: flex;
+    background-color: var(--lightGray-color);
+}
+.row {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+.titles {
+    background-color: var(--gray-color);
+    color: var(--white-color);
+}
+.firstRow {
+    min-width: 250px;
+}
+.secRow {
+    width: 100px;
+}
+.thirdRow {
+    width: 100px;
+}
+.companyRow:hover {
+    background-color: var(--white-color);
+}

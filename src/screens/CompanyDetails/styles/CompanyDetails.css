@@ -1,0 +1,22 @@
+.detailsWrapper {
+    margin: 50px;
+    max-width: 90%;
+}
+.backButton {
+    padding: 10px 30px;
+    border: 1px solid black;
+    background-color: var(--white-color);
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.nameTitle {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.rows {
+    margin-bottom: 10px;
+}
+.description {
+    margin-top: 30px;
+}
