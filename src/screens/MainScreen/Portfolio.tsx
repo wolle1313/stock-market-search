@@ -19,10 +19,10 @@ export const Portfolio = ({toggleDetailsOn, setCompanyDetails}: PortfolioProps) 
         <div>
             <div style={title}><span>Your portfolio</span></div>
             <div className="portfolioTable">
-                <div className="portfolioRow titles">
-                    <div className="firstRow row">Company Name</div>
-                    <div className="secRow row">Symbol</div>
-                    <div className="thirdRow row">Actions</div>
+                <div className="portfolioColumn titles">
+                    <div className="firstColumn column">Company Name</div>
+                    <div className="secColumn column">Symbol</div>
+                    <div className="thirdColumn column">Actions</div>
                 </div>
                 {portfolioRows}
             </div>

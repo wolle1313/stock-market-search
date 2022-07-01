@@ -1,11 +1,11 @@
 .portfolioTable {
     border: 1px solid black;
 }
-.portfolioRow {
+.portfolioColumn {
     display: flex;
     background-color: var(--lightGray-color);
 }
-.row {
+.column {
     border: 1px solid black;
     text-align: center;
     padding: 10px 0;
@@ -16,15 +16,15 @@
     background-color: var(--gray-color);
     color: var(--white-color);
 }
-.firstRow {
+.firstColumn {
     min-width: 250px;
 }
-.secRow {
+.secColumn {
     width: 100px;
 }
-.thirdRow {
+.thirdColumn {
     width: 100px;
 }
-.companyRow:hover {
+.companyColumn:hover {
     background-color: var(--white-color);
 }

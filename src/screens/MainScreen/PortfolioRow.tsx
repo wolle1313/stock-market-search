@@ -46,10 +46,10 @@ export const PortfolioRow = ({toggleDetailsOn, setCompanyDetails, portfolioData}
         .catch(err => setCompanyDetails({error: err}))
     }
     return(
-        <div className="portfolioRow companyRow">
-            <div  className="firstRow row" onClick={openDetails}>{portfolioData.name}</div>
-            <div className="secRow row" onClick={openDetails}>{portfolioData.symbol}</div>
-            <div className="thirdRow row" onClick={() => dispatch(removeFromPortfolio(portfolioData.symbol))}>Remove</div>
+        <div className="portfolioColumn companyColumn">
+            <div  className="firstColumn column" onClick={openDetails}>{portfolioData.name}</div>
+            <div className="secColumn column" onClick={openDetails}>{portfolioData.symbol}</div>
+            <div className="thirdColumn column" onClick={() => dispatch(removeFromPortfolio(portfolioData.symbol))}>Remove</div>
         </div>
     )
 }
